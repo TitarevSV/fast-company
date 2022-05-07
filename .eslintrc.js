@@ -17,6 +17,7 @@ module.exports = {
         semi: [2, "always"],
         "space-before-function-paren": ["error", "never"],
         quotes: ["error", "double", { avoidEscape: true }],
-        "comma-dangle": ["error", "always"],
+        "comma-dangle": ["error", "only-multiline"],
+        "react/prop-types": 0,
     },
 };
